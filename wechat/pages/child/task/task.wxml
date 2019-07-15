@@ -1,0 +1,31 @@
+<!--pages/child/task/task.wxml-->
+<view class='content'>
+  <view class='item'>
+    <view class='title'>
+      <image src='/pages/child/image/task/rw.png' ></image> <view class='text'>每日任务</view></view>
+    <view class='li'>
+      <view class='left'>收藏商品</view>
+      <view class='btn'>去完成</view>
+    </view>
+
+    <view class='li'>
+      <view class='left'>收藏商品</view>
+      <view class='btn'>去完成</view>
+    </view>
+
+  </view>
+  <view class='item'>
+    <view class='title'>
+      <image src='/pages/child/image/task/rw.png' ></image> <view class='text'>每日积分</view></view>
+    <view class='li'>
+      <view class='left'>收藏商品</view>
+      <view class='btn'>去完成</view>
+    </view>
+
+    <view class='li'>
+      <view class='left'>收藏商品</view>
+      <view class='btn'>去完成</view>
+    </view>
+
+  </view>
+</view>

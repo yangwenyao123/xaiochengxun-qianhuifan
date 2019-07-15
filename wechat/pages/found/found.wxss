@@ -1,0 +1,166 @@
+/* pages/found/found.wxss */
+.content{
+  width: 750rpx;
+}
+.banner {
+  height: 386rpx;
+}
+.banner  image{
+  width: 100%;
+  height: 100%;
+}
+.title {
+  padding:40rpx;
+  font-size:38rpx;
+  font-weight: 900;
+
+  position: relative;
+  box-shadow:0px 2px 10px #ccc;
+  
+}
+.title .border {
+  width:31rpx;
+  height:8rpx;
+  background-color:#f90;
+  position:absolute;
+  left:56rpx;
+  bottom:1rpx;
+
+}
+.wrap-item {
+  padding: 30rpx;
+  border-bottom: 20rpx solid #ccc;
+}
+.header-title {
+  height: 124rpx;
+  
+  display: flex;
+  align-items: center;
+}
+.header-title .logo {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  border: 1px solid #f90;
+
+}
+.header-title .txt {
+  margin: 0 20rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.header-title .icon {
+  width: 120rpx;
+  height: 50rpx;
+}
+.header-title .icon image  {
+   width: 100%;
+  height: 100%;
+}
+.wenben {
+  font-family: "幼圆";
+  font-size: 30rpx;
+  padding-bottom: 20rpx;
+  line-height: 42rpx
+}
+.coverImg {
+  width: 308rpx;
+  height: 320rpx;
+}
+.coverImg image {
+  width: 100%;
+  height: 100%;
+}
+
+.like {
+  display: flex;
+  width: 100%;
+  height: 100rpx;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 50rpx;
+  
+} 
+
+.like .icondian-zanx {
+  margin-right: 40rpx;
+  color: rgb(140, 138, 140)
+}
+.fen_zan {
+  display: flex;
+  
+}
+.zanshu-wrap {
+  padding: 20rpx;
+  position: relative;
+}
+
+
+.zanshu {
+  display: flex;
+  align-items: center;
+}
+.zanshu .img-wrap {
+  width: 54rpx;
+  height: 50rpx;
+  overflow: hidden;
+  padding-right: 20rpx;
+  
+  
+}
+.zanshu  image{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+
+}
+.zanshu  .img2{
+ position: absolute;
+ left: 50rpx;
+  
+}
+.zanshu  .img3{
+ position: absolute;
+ left: 82rpx;
+  
+}
+
+.zanshu-wrap .num {
+ 
+  font-size: 20rpx;
+  color: #cccc;
+}
+.active {
+  color:#FFFF00 !important
+}
+
+
+.pinglun {
+  padding-left: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.touxiang {
+  width: 54rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  border: 1px solid #f90;
+  margin-right: 20rpx;
+}
+.iconicon {
+  color: red;
+}
+.shuru {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.shuru input {
+  width: 100%;
+  height: 100%;
+  padding: 10rpx 15rpx;
+}
+.placeholder {
+  font-size: 26rpx;
+ 
+}
+

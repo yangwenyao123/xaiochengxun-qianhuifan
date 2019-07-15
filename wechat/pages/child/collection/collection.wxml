@@ -1,0 +1,9 @@
+<!--pages/child/collection/collection.wxml-->
+<view class='content'>
+  <view class='mide'>
+  <view class='img-box'>
+    <image src='/pages/child/image/integral/sc.png '></image>
+  </view>
+  <view class='text'>暂无收藏商品</view>
+  </view>
+</view>

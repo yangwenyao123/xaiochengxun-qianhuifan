@@ -1,0 +1,9 @@
+<!--pages/child/collection/collection.wxml-->
+<view class='content'>
+  <view class='mide'>
+  <view class='img-box'>
+    <image src='/pages/child/image/integral/mx.png '></image>
+  </view>
+  <view class='text'>暂无红包到账记录</view>
+  </view> 
+</view>

@@ -1,0 +1,107 @@
+/* pages/child/consulting/consulting.wxss */
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #f7f7fa;
+}
+.header {
+  padding: 5rpx 0 5rpx 0;
+  height: 100rpx;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+
+}
+.item {
+  width:40%;
+  height: 80rpx; 
+  font-size:25rpx;
+  color: #323232;
+}
+.iconfont {
+  margin-bottom: 5rpx;
+  font-size:44rpx;
+
+}
+.list {
+  padding:30rpx 112rpx;
+  background-color: #f7f7fa;
+  box-sizing: border-box;
+  position: relative;
+}
+.touxiang {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 30rpx;
+  left: 38rpx;
+}
+
+.list-item {
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+  
+}
+.list-item  .txt {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.list-item  .text2{
+  color:#616161;
+  font-size: 25rpx !important;
+} 
+
+.li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+  background-color: #fff;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  border:1rpx solid #ccc
+  
+}
+.li .iconfont {
+  margin: 0 20rpx;
+}
+.iconjiantou {
+  margin-left: 50rpx;
+  font-size:28rpx;
+
+}
+.li_left {
+  display: flex;
+  align-items: center;
+  font-size:29rpx;
+  
+}
+.footer {
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.input {
+  height: 80rpx;
+  width: 488rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  padding-left: 20rpx;
+}
+
+.footer  .iconfont{
+  margin: 0 23rpx;
+}

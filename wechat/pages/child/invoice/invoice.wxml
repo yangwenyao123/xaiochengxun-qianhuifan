@@ -1,0 +1,15 @@
+<!--pages/child/invoice/invoice.wxml-->
+<!--pages/child/collection/collection.wxml-->
+<view class='content'>
+  <view class='mide'>
+  <view class='img-box'>
+    <image src='/pages/child/image/integral/mx.png'></image>
+  </view>
+  <view class='text'>您还未添加发票哦</view>
+  </view>
+  <view class='footer'>
+    <view class='left-btn'>手动添加</view>
+    <view class='right-btn'>微信添加</view>
+  </view>
+</view>
+

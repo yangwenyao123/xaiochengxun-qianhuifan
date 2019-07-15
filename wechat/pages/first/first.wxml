@@ -1,0 +1,342 @@
+
+<view class="box">
+  <view class='nav'>
+  <view class='nav-card'>
+     <image class='picture auto-img' src='../images/17.jpg'></image>
+      <view class='nav-text'>
+      <view class='texts'>
+      <text class='nav-text1'>哈哈哈</text>
+        <text class='nav-text2'>客服总监</text>
+        </view> 
+        <view class='nav-text-last'>
+        <text class='nav-text3'>14525285697</text>
+        <view class='nav-cards' bindtap='formposter'>
+         <image class='nav-card-img' src='../images-icon/my-card.png'></image>
+        </view>
+        </view>
+      </view>
+     </view>
+     
+     <view class='nav-btn'>
+        <scroll-view scroll-x="true" style="white-space: nowrap; display: flex ">
+        <view class='btn' bindtap='callphone'>
+         <image class='icon' src='../images-icon/11-5.png'></image> 
+           <view class='text'>
+              <text class='text-one text-twos'>12121212121</text>
+           </view>    
+        </view>
+        <view class='btn' bindtap='copy'>
+         <image class='icon' src='../images-icon/11-6.png'></image> 
+           <view class='text'>
+              <text class='text-one text-twos'>12121212121</text>
+           </view>    
+        </view>
+        <view class='btn' bindtap='email'>
+         <image class='icon' src='../images-icon/11-7.png'></image> 
+           <view class='text'>
+              <text class='text-one'>121212121@qq.com</text>
+           </view>    
+        </view>
+        <view class='btn' bindtap='phonenum'>
+         <image class='icon' src='../images-icon/11-8.png'></image> 
+           <view class='text'>
+              <text class='text-one text-twos'>1212121</text>
+           </view>    
+        </view>
+        <view class='btn' bindtap='whereform'>
+         <image class='icon' src='../images-icon/11-9.png'></image> 
+           <view class='text'>
+              <text class='text-one'>广东省广州市天河区</text>
+           </view>    
+        </view>
+
+        </scroll-view>
+        </view>
+        
+        <view class='btns'>
+        <button class='phone'   bindtap='callphone'>
+           <text>拨打电话</text>
+        </button>
+        <button class='phone card' open-type="share" bindtap='sharecard'>
+           <text>分享名片</text>
+        </button>
+        </view>
+
+        <view class='head'>
+          <view class="head-left">
+               <image class='head-left-icon' src="../images-icon/man.png"></image>
+               <image class='head-left-icon' src="../images-icon/girl.png"></image>
+               <image class='head-left-icon' src="../images-icon/good.png"></image>
+               <image class='head-left-icon' src="../images-icon/lucky.png"></image>
+               <image class='head-left-icon' src="../images-icon/qut.png"></image>
+                <view class='head-texts-left'>
+                <text class='texts-one'>9783</text>
+                <text class='texts-one'>人浏览</text>
+          </view>
+          </view>
+          <view class='head-right'>
+               <text class='head-right-one'>靠谱</text>
+               <text class='head-right-two'>{{num}}</text>
+               <image class='head-right-icon' src="../images-icon/ok.png" bindtap="btnclick"></image>
+          </view>
+          </view>
+
+  </view>
+          <view class='wire'></view>
+          <view class='center'>
+          <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="5000" class='swiper'>
+             <swiper-item> <image class='swiper-img' src='../images/2.png' mode="widthFix"></image></swiper-item>
+             <swiper-item> <image class='swiper-img' src='../images/6.jpg' mode='widthFix'></image></swiper-item>
+             <swiper-item> <image class='swiper-img' src='../images/3.png' mode='widthFix'></image></swiper-item>
+          </swiper>
+          </view>
+
+           <view class='myself'>
+              <view class='myself-mys'>
+                 <image class='my-img' src="../images-icon/dianzan.png"></image>
+                 <text>推荐商品</text> 
+              </view>
+              <view class='myself-alls'>
+                <text class='all-text'>查看全部</text>
+              </view>
+              </view>
+              
+              <view class='scroll-box'>
+              <scroll-view scroll-x="true" style="white-space: nowrap; display: flex ">
+                <view class='scroll-nav'>
+                <view class='scroll-img'>
+                <image src='../images/19.jpg' class='scroll-img-one'></image>
+                </view>
+                 <view class='big-box'>
+                <view class='card-text-all'>
+                  <text class='card-text-all1'>￥</text>
+                  <text>888</text>
+                </view>
+                <view class='card-cards'>
+                  <text>广州千汇凡网络科技有限公司</text>
+                </view>
+                </view>
+                </view>
+                <view class='scroll-nav'>
+                <view class='scroll-img'>
+                <image src='../images/20.jpg' class='scroll-img-one'></image>
+                </view>
+                 <view class='big-box'>
+                <view class='card-text-all'>
+                  <text class='card-text-all1'>￥</text>
+                  <text>888</text>
+                </view>
+                <view class='card-cards'>
+                  <text>广州千汇凡网络科技有限公司</text>
+                </view>
+                </view>
+                </view>
+                <view class='scroll-nav'>
+                <view class='scroll-img'>
+                <image src='../images/21.jpg' class='scroll-img-one'></image>
+                </view>
+                 <view class='big-box'>
+                <view class='card-text-all'>
+                  <text class='card-text-all1'>￥</text>
+                  <text>888</text>
+                </view>
+                <view class='card-cards'>
+                  <text>广州千汇凡网络科技有限公司</text>
+                </view>
+                </view>
+                </view>
+                <view class='scroll-nav'>
+                <view class='scroll-img'>
+                <image src='../images/22.jpg' class='scroll-img-one'></image>
+                </view>
+                 <view class='big-box'>
+                <view class='card-text-all'>
+                  <text class='card-text-all1'>￥</text>
+                  <text>888</text>
+                </view>
+                <view class='card-cards'>
+                  <text>广州千汇凡网络科技有限公司</text>
+                </view>
+                </view>
+                </view>
+              </scroll-view>  
+              </view>
+  
+               <view class='myself'>
+              <view class='myself-my '>
+              <view class='guan-nav'>
+                 <image class='my-img' src="../images-icon/icon-balls.png"></image>
+                 <text>官网直达</text> 
+                 </view>
+                 <view class='guan-picture'>
+                 <view class='guan-box'>
+                 <view class='guan-four' bindtap='guanwang'>
+                   <image class='guan-img' src='../images-icon/11-1.png'></image>
+                   <text class='guan-text'>千汇凡</text>
+                 </view>
+                 <view class='guan-four' bindtap='guanwang'>
+                   <image class='guan-img' src='../images-icon/11-2.png'></image>
+                   <text class='guan-text'>合作伙伴</text>
+                 </view>
+                 <view class='guan-four' bindtap='guanwang'>
+                   <image class='guan-img' src='../images-icon/11-3.png'></image>
+                   <text class='guan-text'>企业历程</text>
+                 </view>
+                 <view class='guan-four guan-last' bindtap='guanwang'>
+                   <image class='guan-img' src='../images-icon/11-4.png'></image>
+                   <text class='guan-text'>企业荣誉</text>
+                 </view>
+                   
+                 </view>
+                    
+                   
+                 </view>
+              </view>
+              </view>
+
+
+          <view class='myself'>
+              <view class='myself-my'>
+                 <image class='my-img' src="../images-icon/myself.png"></image>
+                 <text>我的个人简介</text> 
+              </view>
+              <view class='vita'>
+                  <view class='my-text'>
+                    <text>广州千汇凡网络科技有限公司，成立于2017年，我公司为各行各业提供专业的it技术服务，经过多年的努力累积与发展，已具一定的技术及实力，现拥有一支技术精湛的it服务团队，以卓越的服务品质、专业安全的技术服务实力，为不同群体的用户提供更高更优质的it服务。</text>
+                  </view>
+                  <view class='logo'>
+                    <image class='my-logo' src='../images/10.png'></image>
+                    <view class='voice'>
+                       <audio  src="{{src}}" id="myAudio" ></audio>
+                       <image class='music' src='../images-icon/music.png' bindtap="audioPlay" ></image>
+                       <text>语音介绍</text>
+                      
+                    </view>
+                  </view>
+              </view>
+          </view>
+          <view class='myself'>
+              <view class='myself-my'>
+                 <image class='my-img' src="../images-icon/biaoqian.png"></image>
+                 <text>印象标签</text> 
+              </view>          
+              </view>
+              <view class='label'>
+              <view class='label-have'>
+                 <view class='have'>
+                   <text class='have-love' >有亲和力</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="havelove"></image>
+                   <text>{{love}}</text>
+                 </view>
+                 <view class='has'>
+                   <text class='have-love'>形象优秀</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="havegood"></image>
+                   <text>{{good}}</text>
+                 </view>
+                 </view>
+                 <view class='label-have'>
+                 <view class='have'>
+                   <text class='have-love'>诚实守信</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="havehonest"></image>
+                   <text>{{honest}}</text>
+                 </view>
+                 <view class='has'>
+                   <text class='have-love'>原则性强</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="haveprin"></image>
+                   <text>{{prin}}</text>
+                 </view>
+                 </view>
+                 <view class='label-have'>
+                 <view class='have'>
+                   <text class='have-love'>服务态度好</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="havegive"></image>
+                   <text>{{give}}</text>
+                 </view>
+                 <view class='has'>
+                   <text class='have-love'>小奶猫</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="havecat"></image>
+                   <text>{{cat}}</text>
+                 </view>
+                 </view>
+                  <view class='label-have'>
+                 <view class='have'>
+                   <text class='have-love'>态度好</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="havebear"></image>
+                   <text>{{bear}}</text>
+                 </view>
+                 <view class='has'>
+                   <text class='have-love'>靠谱</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="haverelia"></image>
+                   <text>{{relia}}</text>
+                 </view>
+                 </view>
+                 <view class='label-have'>
+                 <view class='have'>
+                   <text class='have-love'>营销鬼才</text>
+                   <view class='list'></view>
+                   <image class='good' src='../images-icon/ok.png' bindtap="havemark"></image>
+                   <text>{{mark}}</text>
+                 </view>
+                 </view>
+              </view>
+
+              <view class='myself'>
+              <view class='myself-my'>
+                 <image class='my-img' src="../images-icon/shiping.png"></image>
+                 <text>我的视频</text> 
+              </view>
+              </view>
+              <view class='video'>
+              <view class="video2">
+            <video id="myVideo" class="myVideo" src="{{video}}" custom-cache="{{false}}">
+            </video>
+            
+          </view>
+          </view>
+
+          <view class='myself'>
+              <view class='myself-my'>
+                 <image class='my-img' src="../images-icon/picture.png"></image>
+                 <text>照片墙</text> 
+              </view>
+              </view>
+              <view class='last'>
+                <view class='last-big'>
+                  <image src='../images/one.jpg'></image>
+                </view>
+                <view class='last-small'>
+                 <image src='../images/two.jpg'></image>
+                </view>
+                <view class='last-small'>
+                 <image src='../images/three.jpg'></image>
+                </view>
+                <view class='last-small'>
+                 <image src='../images/four.jpg'></image>
+                </view>
+                <view class='last-small'>
+                 <image src='../images/five.jpg'></image>
+                </view>
+                <view class='last-small'>
+                 <image src='../images/six.jpg'></image>
+                </view>
+                <view class='last-big'>
+                  <image src='../images/seven.jpg'></image>
+                </view>
+                <view class='last-big'>
+                  <image src='../images/eight.jpg'></image>
+                </view>
+                <view class='last-bigs'>
+                  <image src='../images/night.jpg'></image>
+                </view>
+              </view>
+              <view class='over'></view>
+
+</view>

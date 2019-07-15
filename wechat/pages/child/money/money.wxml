@@ -1,0 +1,77 @@
+<!--pages/child/money/money.wxml-->
+<view class='content'>
+  <view class='header'>你总共赚取了佣金0元</view>
+
+  <view class='list'>
+    <view class='card'>
+      <view class='card-top'>
+        <view class='left'>可提现
+          <text>￥0</text>
+        </view>
+        <view class='right'>
+          <button>提现</button>
+        </view>
+      </view>
+      <view class='card-bottom'>
+        <view class='left'>可提现
+          <text>￥0</text>
+          <text class='iconfont iconjiantou'></text>
+        </view>
+        <view class='right'>
+          <image src='/pages/child/image/money/ewm.png' class='ewm'></image>
+          <view>我的分销码</view>
+        </view>
+      </view>
+
+      <view class='left-radius'></view>
+      <view class='right-radius'></view>
+    </view>
+
+    <view class='group'>
+      <view class='item'>
+        <view class='img'>
+          <image src='/pages/child/image/money/jq.png '></image>
+        </view>
+
+        <view class='text'>提现记录</view>
+      </view>
+      <view class='item'>
+        <view class='img'>
+          <image src='/pages/child/image/money/jq.png '></image>
+        </view>
+
+        <view class='text'>提现记录</view>
+      </view>
+      <view class='item'>
+        <view class='img'>
+          <image src='/pages/child/image/money/jq.png '></image>
+        </view>
+
+        <view class='text'>提现记录</view>
+      </view>
+      <view class='item'>
+        <view class='img'>
+          <image src='/pages/child/image/money/jq.png '></image>
+        </view>
+
+        <view class='text'>提现记录</view>
+      </view>
+      <view class='item'>
+        <view class='img'>
+          <image src='/pages/child/image/money/jq.png '></image>
+        </view>
+
+        <view class='text'>提现记录</view>
+      </view>
+
+       <view class='item'>
+        <view class='img'>
+          <image src='/pages/child/image/money/jq.png '></image>
+        </view>
+
+        <view class='text'>提现记录</view>
+      </view>
+    </view>
+
+  </view>
+</view>

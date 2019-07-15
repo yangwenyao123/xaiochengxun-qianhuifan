@@ -1,0 +1,70 @@
+<!--pages/child/recommended/recommended.wxml-->
+<!--pages/child/mass/details/details.wxml-->
+<view class='content'>
+  <view class='top'>
+    <view class='banner'>
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" class='swiper' indicator-dots="true" indicator-color="#ccc" indicator-active-color="#ff9900">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+          <swiper-item>
+            <image src="{{item}}" class="swiper-image" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+  
+    <view class='instructions'>
+      <view class='inst-left'>
+        <view class='inst-text'>
+          <text decode="{{true}}">&nbsp;“爱在春色深深处”。&nbsp;大胆去爱吧，这是个自由的年代；</text>
+        </view>
+        <view class='newprice'><text>￥</text>2999</view>
+        <view class='yunfei'>
+          <text decode="{{true}}">运费:&nbsp;包邮&nbsp;&nbsp;&nbsp;已售1件</text>
+        </view>
+      </view>
+
+      <view class='shoucang'>
+        <view class='iconfont iconxin'></view>
+        收藏
+      </view>
+    </view>
+  </view>
+
+
+  <view class='bargaining'>
+    <view class='title'>砍价说明
+      <text class='inconfont '></text>
+    </view>
+    <view class='shuming'>
+      <image src='/pages/child/image/13.png'></image>
+    </view>
+  </view>
+
+  <!-- 分享按钮 -->
+  <view class='fenxiang'>
+    <view class='iconfont iconfenxiang2'></view>
+    分享
+  </view>
+
+  <view class='details'>
+    <view class='title'>商品详情
+      <view class='border'></view>
+    </view>
+    <image src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2221243597,1321711751&fm=11&gp=0.jpg'></image>
+     <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563183704479&di=7c10e5950cb84c47a5349fdd1cd18be1&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201412%2F11%2F20141211201700_Vy8ve.jpeg'></image>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563183704478&di=7d5f2b9abc35a1f091437b6c4405a052&imgtype=0&src=http%3A%2F%2Fpic15.nipic.com%2F20110804%2F6766382_082550071826_2.jpg'></image>
+  </view>
+
+  <view class='footer'>
+    <view class='footer-left'>
+      <view class='shouye'>
+        <view class='iconfont iconshouye'></view>首页
+      </view>
+      <view class='zixun'>
+        <view class='iconfont iconpingjia'></view>咨询
+      </view>
+    </view>
+    <view class='footer-btn' bindtap='consulting'>立即咨询</view>
+  </view>
+</view>

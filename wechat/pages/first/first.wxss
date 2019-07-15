@@ -1,0 +1,506 @@
+/* pages/first/first.wxss */
+.box{
+  width: 100%;
+  background-color: #FAFAFA;
+}
+.nav{
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+.nav-card{
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  border: 1px solid #EFEFEF;
+  box-shadow: #EAEAEA 0 0 10rpx 5rpx;
+  margin-top:30rpx;
+}
+.picture{
+  border-radius: 10rpx 10rpx 0 0;
+}
+.nav-text{
+  height: 220rpx;
+  width: 100%;
+  position: relative;
+}
+.texts{
+  width: 100%;
+  margin-top: 10rpx;
+}
+.nav-text1{
+  font-weight: 700;
+  float: left;
+  margin-top: 25rpx;
+  margin-left: 40rpx;
+  font-size: 24px;
+}
+.nav-text2{
+  display: block;
+  float: left;
+  margin-top: 40rpx;
+  margin-left: 22rpx;
+}
+.nav-text3{
+  margin-left: 40rpx;
+}
+.nav-cards{
+  position: absolute;
+  top: 40rpx;
+  right: 0;
+  width: 100rpx;
+  height: 136rpx;
+}
+.nav-card-img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+image{
+  width: 100%;
+}
+.nav-btn{
+  width: 100%;
+  overflow: hidden;
+}
+.btn{
+  margin-right: 30rpx;
+  position: relative;
+  display: inline-block;
+  /* width: 280rpx; */
+  height: 80rpx;
+  margin-top: 20rpx;
+  border: 1px solid #dadada;
+  line-height: 100rpx;
+  border-radius:5px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.btns{
+  overflow: hidden;
+}
+.phone{
+  float: left;
+  width: 320rpx;
+  height: 90rpx;
+  margin-top: 40rpx;
+  background-color: #1766f3;
+  line-height: 90rpx;
+  border-radius:5px;
+  margin-right: 27rpx;
+  text-align: center;
+  background-color: #fff;
+  color: skyblue;
+  border: 1rpx solid skyblue;
+  margin-bottom: 60rpx;
+}
+.icon{
+  position: absolute;
+  display: block;
+  left: 20rpx;
+  top: 22rpx;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+}
+.text{
+  margin-top:-8rpx;
+  margin-left: 65rpx;
+}
+.text-one{
+  display: block;
+  margin-top: 2rpx;
+  margin-right:20rpx;
+}
+.text-twos{
+  margin-right: 40rpx;
+  margin-left:16rpx;
+}
+.card{
+  margin-right: 0;
+  background-color: skyblue;
+  color: #fff;
+}
+.head{
+  overflow: hidden;
+  margin-bottom:30rpx;
+}
+.head-left{
+ position: relative;
+}
+.head-left-icon{
+  float: left;
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 5rpx;
+}
+.two-icon{
+  margin-left: 10rpx;
+  line-height: 26rpx;
+  float: left;
+}
+.one-icon{
+  width: 10rpx;
+  height: 10rpx;
+  margin-right: 10rpx;
+  border-radius: 50%;
+  background-color: #aaa;
+}
+.head-text{
+  font-size: 14px;
+  color: #aaa;
+}
+.head-right{
+  float: right;
+  margin-top:-2rpx
+}
+.head-right text{
+  display: block;
+  float: left;
+  color: #aaa;
+  font-size: 13px;
+  margin-top:11rpx;
+}
+.head-right-one{
+  margin-right: 10rpx;
+}
+.head-right-icon{
+  float: left;
+  display: block;
+  width: 30rpx;
+  height: 30rpx;
+  margin-left:10rpx;
+  margin-top:12rpx;
+}
+.head-right-icons{
+  margin-left: 60rpx;
+  margin-right: 8rpx;
+}
+.texts{
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+.head-texts-left{
+  color: #aaa;
+  float: left;
+}
+.texts-one{
+  font-size: 12px;
+}
+.head-texts-right > text{
+  float: left;
+  color: #aaa;
+  font-size: 14px;
+}
+.wire{
+  width: 100%;
+  height: 20rpx;
+  background-color: #F0F0F0;
+}
+.center{
+  width: 90%;
+  margin: 20rpx auto 60rpx;
+}
+.swiper{
+  width: 100%;
+  height: 400rpx !important;
+}
+.swiper-img{
+  width: 100%;
+  height: 100% !important;
+  display: block;
+  border-radius:16rpx;
+}
+.myself{
+  width: 90%;
+  margin: 0 auto 16rpx;
+}
+.myself-mys{
+   float: left;
+}
+.myself-my{
+ overflow: hidden;
+ margin-bottom: 30rpx;
+ margin-top:70rpx;
+}
+.myself-alls{
+  overflow: hidden;
+}
+.all-text{
+  float: right;
+  color: #D68049;
+}
+.scroll-card{
+   width: 100%;
+  overflow: hidden;
+}
+.guan-nav{
+  float: left;
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.scroll-box{
+  margin-top: 10rpx;
+  width: 90%;
+  margin: 0 auto;
+}
+.card-cards text{ 
+  display: block;
+  font-size: 14px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  margin-left:10rpx;
+  padding-bottom:20rpx;
+
+}
+.scroll-nav{
+  width: 37%;
+  margin: 20rpx 0 20rpx 20rpx;
+  white-space: nowrap;
+  height: 366rpx;
+  display: inline-block;
+  border-radius:10rpx;
+  border:1px solid #E4E4E4;
+  box-shadow: #E4E4E4 0 0 10rpx 5rpx;
+}
+.big-box{
+  background-color: #FFF;
+  border-radius: 0 0 10rpx 10rpx;
+}
+.scroll-img{
+  height: 236rpx;
+}
+.scroll-img image{
+  height: 100%;
+  border-radius: 10rpx 10rpx 0 0;
+}
+.card-text-all{
+  padding:20rpx 20rpx 0 10rpx;
+}
+.card-text-all1{
+  margin-right: 10rpx;
+  font-size: 12px;
+}
+.card-text-all text{
+  color: #F97C37;
+}
+  .guan-box{
+    overflow: hidden;
+    width: 100%;
+    margin-top:50rpx;
+  }
+  .guan-four{
+    float: left;
+    width: 22%;
+    margin-right: 21rpx;
+    background-color: #FFF;
+    border-radius:16rpx;
+    box-shadow: #E4E4E4 0 0 10rpx 5rpx ;
+    height:215rpx;
+    border: 1px solid #E4E4E4;
+  }
+  .guan-last{
+    margin-right: 0;
+  }
+.my-img{
+  margin-right: 10rpx;
+  float: left;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%; 
+}
+.myself-my >text{
+  float: left;
+}
+.guan-picture{
+ width: 100%;
+}
+.my-self-bottom{
+  margin-bottom:30rpx;
+}
+.guan-img{
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+  margin: 50rpx;
+}
+.guan-text{
+  display: block;
+  font-size: 12px;
+  font-weight:700;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.vita{
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: #EAEAEA 0 0 10rpx 5rpx ;
+  padding: 50rpx 30rpx;
+}
+.logo{
+  overflow: hidden;
+}
+.my-logo{
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 30rpx 20rpx 0 30rpx;
+}
+.voice{
+  position: relative;
+  padding: 20rpx 20rpx;
+  float: right;
+  width: 65%;
+  height: 70rpx;
+  line-height: 70rpx;
+  border: 1px solid #4FD9A1;
+  margin-top: 20rpx;
+  border-radius: 0 30rpx 30rpx;
+  background-color: #CCF3E4;
+}
+.music{
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 100rpx;
+  margin-top: 10rpx;
+}
+.voice >text{
+ position: absolute;
+ top: 18rpx;
+ left: 90rpx; 
+}
+.label{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50rpx;
+}
+.label-have{
+  float: left;
+}
+.have{
+  float: left;
+  overflow: hidden;
+  padding: 10rpx;
+  border: 1px solid #aaa;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+}
+.has{
+  overflow: hidden;
+  padding: 10rpx;
+  border: 1px solid #aaa;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+.oneself{
+  float: left;
+  overflow: hidden;
+  width: 39%;
+  padding: 10rpx;
+  border: 1px solid #aaa;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+}
+.have-love{
+  float: left;
+  display: block;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.list{
+  float: left;
+  width: 1rpx;
+  height: 50rpx;
+  border-right:1px solid #aaa;
+  margin-right: 20rpx;
+}
+.good{
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+  margin-top: 5rpx;
+}
+.video{
+  width: 90%;
+  margin: 0 auto;
+}
+.video2 {
+width: 100%;
+height:450rpx;
+}
+
+.myVideo{ 
+width:100%;
+height:450rpx;
+background-color: #fff;
+border-radius:20rpx;
+}
+.controls{
+position:absolute;
+z-index:1; 
+background-color: #fff; 
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.play{ 
+position:absolute;
+left:50%;
+top: 50%;
+margin-top:-80rpx;
+margin-left:-80rpx; 
+}
+.last{
+  width: 90%;
+  margin: 0 auto;
+}
+.last-big{
+  width: 100%;
+  height: 1100rpx;
+  border: 1px solid #EDEDED;
+  border-radius: 10rpx;
+  margin-bottom: 30rpx;
+  box-shadow: #E4E4E4 0 0 10rpx 5rpx ;
+}
+.last-big image{
+  width: 100%;
+  height: 100%;
+  border-radius:14rpx;
+}
+.last-small{
+  width: 100%;
+  height: 500rpx;
+  border: 1px solid #EDEDED;
+  border-radius: 10rpx;
+  margin-bottom: 30rpx;
+  box-shadow: #E4E4E4 0 0 10rpx 5rpx ;
+}
+.last-small image{
+  width: 100%;
+  height: 100%;
+  border-radius:14rpx;
+}
+.last-bigs{
+  width: 100%;
+  height: 1200rpx;
+  
+  border-radius: 10rpx;
+  margin-bottom: 30rpx;
+}
+.last-bigs image{
+  width: 100%;
+  height: 1100rpx;
+  border-radius:14rpx;
+  border: 1px solid #EDEDED;
+}
+.over{
+  background-color: #F0F0F0;
+  height: 50rpx;
+}

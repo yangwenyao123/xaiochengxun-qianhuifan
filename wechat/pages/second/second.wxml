@@ -1,0 +1,227 @@
+<view class='box'>
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="5000" class='swiper'>
+    <swiper-item>
+      <image class='swiper-img' src='../images/6.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='swiper-img' src='../images/12.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='swiper-img' src='../images/11.png'></image>
+    </swiper-item>
+  </swiper>
+
+  <view class='nav'>
+    <view class='nav-ipt'>
+      <input class='ipt' placeholder='搜索你感兴趣的商品'></input>
+      <view class='ipt-icon'>
+        <image class='icon-find' src='../images-icon/shuru.png'></image>
+      </view>
+    </view>
+
+    <view class='shop-card'>
+      <view class='shop-card-four'>
+        <image class='card-four-img' src='../images-icon/shop-card.png'></image>
+        <view class='text-nums'>
+          <text class='text-nums1 text-nums-all'>10</text>
+          <text class='text-nums2 text-nums-all'>满100可用</text>
+          <text class='text-nums3 text-nums-all'>立即领取</text>
+        </view>
+
+        <view class='text-nums'>
+          <text class='text-nums4 text-nums-all'>20</text>
+          <text class='text-nums5 text-nums-all'>满200可用</text>
+          <text class='text-nums6 text-nums-all'>立即领取</text>
+        </view>
+
+        <view class='text-nums'>
+          <text class='text-nums7 text-nums-all'>20</text>
+          <text class='text-nums8 text-nums-all'>满200可用</text>
+          <text class='text-nums9 text-nums-all'>立即领取</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='nav-icon'>
+      <view class='nav-icon1' bindtap='retuan' data-id='1'>
+        <image class='nav-picture' src='../images-icon/13.png'></image>
+        <text class='nav-text'>热团拼购</text>
+      </view>
+      <view class='nav-icon1' bindtap='retuan' data-id='2'>
+        <image class='nav-picture' src='../images-icon/14.png'></image>
+        <text class='nav-text'>砍出特惠</text>
+      </view>
+      <view class='nav-icon1' bindtap='retuan'>
+        <image class='nav-picture' src='../images-icon/15.png'></image>
+        <text class='nav-text'>低价秒杀</text>
+      </view>
+      <view class='nav-icon1' bindtap='retuan'>
+        <image class='nav-picture' src='../images-icon/16.png'></image>
+        <text class='nav-text'>所有活动</text>
+      </view>
+    </view>
+
+    <view class='nav-tell'>
+      <view class='nav-tell-img'>
+        <image src="../images/21.jpg"></image>
+      </view>
+      <view class='nav-tell-text'>
+        <text class='tell-text1'>千汇凡项目启动说明会</text>
+        <view>
+          <text class='tell-text2'>￥</text>
+          <text class='tell-text3'>888</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='scroll-box'>
+      <scroll-view scroll-x="true" style="white-space: nowrap; display: flex ">
+        <view class='scroll-nav' bindtap='recommended'>
+          <view class='scroll-img'>
+            <image src='../images/19.jpg' class='scroll-img-one'></image>
+          </view>
+          <view class='big-box'>
+            <view class='card-text-all'>
+              <text class='card-text-all1'>￥</text>
+              <text>8808</text>
+            </view>
+
+          </view>
+        </view>
+        <view class='scroll-nav' bindtap='recommended'>
+          <view class='scroll-img'>
+            <image src='../images/20.jpg' class='scroll-img-one'></image>
+          </view>
+          <view class='big-box'>
+            <view class='card-text-all'>
+              <text class='card-text-all1'>￥</text>
+              <text>888</text>
+            </view>
+
+          </view>
+        </view>
+        <view class='scroll-nav' bindtap='recommended'>
+          <view class='scroll-img'>
+            <image src='../images/21.jpg' class='scroll-img-one'></image>
+          </view>
+          <view class='big-box'>
+            <view class='card-text-all'>
+              <text class='card-text-all1'>￥</text>
+              <text>888</text>
+            </view>
+
+          </view>
+        </view>
+        <view class='scroll-nav' bindtap='recommended'>
+          <view class='scroll-img'>
+            <image src='../images/22.jpg' class='scroll-img-one'></image>
+          </view>
+          <view class='big-box'>
+            <view class='card-text-all'>
+              <text class='card-text-all1'>￥</text>
+              <text>888</text>
+            </view>
+
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+
+    <view class="center">
+      <view class="{{scrollTop>750 ? '' : ''}}">
+        <view class="{{scrollTop>750 ? 'hhh' : 'hhh'}}">
+          <scroll-view scroll-x="true" style="white-space: nowrap; display: flex ">
+            <view class="{{scrollTop>750 ? 'aside' : 'aside'}}">
+
+              <block wx:key="navList" wx:for="{{navList}}">
+                <view class="type-nav flexca" bindtap="selectNav" data-index="{{index}}" data-id="{{item.id}}">
+                  <view class='flexda'>
+                    <text class="{{curNav == item.id ? 'selected' : ''}}">{{item.name}}</text>
+                    <view class="{{curNav == item.id ? 'selected' : ''}}"></view>
+                  </view>
+
+                </view>
+              </block>
+
+            </view>
+          </scroll-view>
+          <view class="{{scrollTop>750 ? 'flexall ' : 'flexall'}}">
+            <view class='flexall-img'>
+              <image src='../images-icon/find-all.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+
+
+
+      <!-- <view class='aside-import'>
+              <block wx:key="{{index}}"  wx:for="{{showData}}">
+              <view class='aside'>
+              <view class='aside-img'  data-index="{{index}}" data-id="{{item.id}}">
+              
+                <image class='aside-all' src='{{item.img}}'></image>
+                <text class='all-text'>{{item.name}}</text>
+                <text class='all-money'>￥</text>
+                <text class='all-num'>{{item.price}}</text>
+                </view>
+              </view>
+              </block>
+              </view> -->
+      <block wx:key="{{index}}" wx:for="{{showData}}">
+        <view class='scroll-navs' bindtap='goodsList'>
+
+          <view class='scroll-imgs' data-index="{{index}}" data-id="{{item.id}}">
+            <image src='{{item.img}}' class='scroll-img-ones'></image>
+          </view>
+          <view class='big-boxs'>
+            <view class='card-cardss'>
+              <text>{{item.name}}</text>
+            </view>
+            <view class='card-text-alls'>
+              <text class='card-text-all1s'>￥</text>
+              <text>{{item.price}}</text>
+            </view>
+          </view>
+
+        </view>
+      </block>
+      <!-- <view class='scroll-navs'>
+                <view class='scroll-imgs'>
+                <image src='../images/22.jpg' class='scroll-img-ones'></image>
+                </view>
+                 <view class='big-boxs'>
+                 <view class='card-cardss'>
+                  <text>广州千汇凡网络科技有限公司</text>
+                </view>
+                <view class='card-text-alls'>
+                  <text class='card-text-all1s'>￥</text>
+                  <text>888</text>
+                </view>
+                
+                </view>
+                </view>
+
+                 <view class='scroll-navs'>
+                <view class='scroll-imgs'>
+                <image src='../images/22.jpg' class='scroll-img-ones'></image>
+                </view>
+                 <view class='big-boxs'>
+                 <view class='card-cardss'>
+                  <text>广州千汇凡网络科技有限公司</text>
+                </view>
+                <view class='card-text-alls'>
+                  <text class='card-text-all1s'>￥</text>
+                  <text>888</text>
+                </view>
+                
+                </view>
+                </view> -->
+
+
+    </view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+/* pages/child/task/task.wxss */
+.item {
+  width: 750rpx;
+  border-bottom: 30rpx solid #f1f1f1
+}
+.title {
+  height: 70rpx;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 15rpx;
+  border-bottom: 2rpx solid #efefef
+
+}
+.title image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 15rpx;
+}
+.li {
+  height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28rpx 0 20rpx;
+  font-size: 28rpx;
+  border-bottom: 2rpx solid #efefef
+  
+}
+.btn {
+  width: 112rpx;
+  height: 50rpx;
+  background-color: #38c0f5;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #fff;
+  border-radius: 15rpx;
+}

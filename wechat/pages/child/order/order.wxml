@@ -1,0 +1,19 @@
+<!--pages/order/order.wxml-->
+<view class='content'>
+  <view class='header'>
+    <view class="item {{index==active?'active':''}}" wx:for="{{btn}}" bindtap='dianji' data-index='{{index}}' wx:key="index">{{item}}</view>
+ 
+  </view>
+  <view class='list'>
+    <view class='list-box'>
+      <image src='/pages/child/image/order/04.png'></image>
+      <view class='btn'>随便逛逛</view>
+    </view>
+  </view>
+  <!-- <view style="height:{{height}}rpx;width:200rpx;background:red;"></view> -->
+
+<view class="halfPage" style="height:{{height+20}}rpx;">
+    <view class="arrow" bindtap="goback" ></view>
+</view>
+
+</view>

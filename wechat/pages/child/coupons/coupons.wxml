@@ -1,0 +1,9 @@
+<!--pages/child/collection/collection.wxml-->
+<view class='content'>
+  <view class='mide'>
+  <view class='img-box'>
+    <image src='/pages/child/image/integral/yhj.png '></image>
+  </view>
+  <view class='text'>暂无优惠券</view>
+  </view>
+</view>

@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/first/first",
+    "pages/second/second",
+    "pages/third/third",
+    "pages/found/found",
+    "pages/guanwang/guanwang",
+    "pages/user/user",
+    "pages/posters/posters",
+    "pages/child/mass/mass",
+    "pages/child/details/details",
+    "pages/child/recommended/recommended",  
+    "pages/child/consulting/consulting",
+    "pages/child/SpellGroup/SpellGroup"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "名片",
+        "iconPath": "pages/images-icon/icon-cards.png",
+        "selectedIconPath": "pages/images-icon/icon-card.png"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "商城",
+        "iconPath": "pages/images-icon/icon-shops.png",
+        "selectedIconPath": "pages/images-icon/icon-shop.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "发现",
+        "iconPath": "pages/images-icon/icon-find.png",
+        "selectedIconPath": "pages/images-icon/icon-finds.png"
+      },
+      {
+        "pagePath": "pages/guanwang/guanwang",
+        "text": "官网",
+        "iconPath": "pages/images-icon/icon-ballss.png",
+        "selectedIconPath": "pages/images-icon/icon-ball.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "pages/images-icon/icon-mys.png",
+        "selectedIconPath": "pages/images-icon/icon-my.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

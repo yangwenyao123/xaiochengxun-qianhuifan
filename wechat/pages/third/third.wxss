@@ -1,0 +1,28 @@
+page {
+    background: #fff;
+    text-align: center;
+}
+
+.box {
+    padding: 30rpx 80rpx;
+}
+
+.img {
+    width: 430rpx;
+    height: 430rpx;
+    margin: 20rpx 0;
+}
+button {
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    border-radius: 0rpx;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background: green;
+    color: #ffffff;
+    border-radius: 0;
+}

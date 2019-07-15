@@ -1,0 +1,33 @@
+<!--pages/child/integral/integral.wxml-->
+<view class='content'>
+  <view class='banner'>
+    <image src='/pages/child/image/integral/bammer.png'></image>
+      <view class='midel'>
+      <view class='num'>0</view>
+      <view class='btn'>每日签到</view>
+  </view>
+  </view>
+
+  <view class='tab'>
+    <view class='left'>
+      <view class='img'>
+        <image src='/pages/child/image/integral/yh.png'></image>
+      </view>
+      <view class='text'>积分优惠购</view>
+    </view>
+    <view class='right' bindtap='integral'>
+      <view class='img'>
+        <image src='/pages/child/image/integral/jf.png '></image>
+      </view>
+       <view class='text'>积分任务</view>
+    </view>
+  </view>
+
+  <view class='list'>
+    <view class='mx-img'>
+      <image src='/pages/child/image/integral/mx.png '></image>
+      <view class='text'>暂无积分明细</view>
+      </view>
+  </view>
+ 
+</view>

@@ -1,0 +1,64 @@
+<view class="content">
+  <view class='header'>
+    <view class='item'>
+      <view class='iconfont iconmingpian'></view>返回名片
+    </view>
+    <view class='item'><view class='iconfont iconweixin'></view>加微信</view>
+    <view class='item'><view class='iconfont iconweibiaoti-1'></view>打电话</view>
+    <view class='item'><view class='iconfont iconiphoneXmoxing'></view>请联系</view>
+  </view>
+   
+  <view class='list'>
+    <image src='/pages/child/image/integral/bammer.png' class='touxiang'></image>
+    <view class='list-item'>
+      <view class='txt'>年味是什么？年味是家乡人准备过年忙碌的身影和开心的笑容，是家乡腊月集市的喧闹和繁荣。年味是家乡的馓子和大肉的喷香，是家乡红芋粉丝的筋道。年味是红红火火的场景，红红的灯笼，红红的春联，红红的蜡烛。</view>
+
+      <view class='text2'>年味是家乡的馓子和大肉的喷香</view>
+
+      <view class='li'>
+        <view class='li_left'>
+        <view class='iconfont iconmingpian'></view>进入我的名片</view>
+        
+        <view class='iconfont iconjiantou'></view>
+      </view>
+      <view class='li'>
+        <view class='li_left'>
+        <view class='iconfont iconmingpian'></view>进入我的名片</view>
+        
+        <view class='iconfont iconjiantou'></view>
+      </view>
+      <view class='li'>
+        <view class='li_left'>
+        <view class='iconfont iconmingpian'></view>进入我的名片</view>
+        
+        <view class='iconfont iconjiantou'></view>
+      </view>
+      <view class='li'>
+        <view class='li_left'>
+        <view class='iconfont iconmingpian'></view>进入我的名片</view>
+        
+        <view class='iconfont iconjiantou'></view>
+      </view>
+      <view class='li'>
+        <view class='li_left'>
+        <view class='iconfont iconmingpian'></view>进入我的名片</view>
+        
+        <view class='iconfont iconjiantou'></view>
+      </view>
+      <view class='li'>
+        <view class='li_left'>
+        <view class='iconfont iconmingpian'></view>进入我的名片</view>
+        
+        <view class='iconfont iconjiantou'></view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='footer'>
+    <view class='iconfont iconyuyin'></view>
+    <input class='input'></input>
+    <view class='iconfont iconxiaolian'></view>
+    <view class='iconfont iconjia'></view>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+<view class='box'>
+  <view class='posters-box'>
+  <view class='nav-all'>
+    <view class='nav-img'>
+      <image src='../images/17.jpg'></image>
+    </view>
+    <view class='nav-text'>
+     <text class='nav-name'>ffsa</text>
+     <text class='nav-work'>asffs</text>
+     <text class='nav-card'>saf</text>
+    </view>
+    </view>
+    <view class='border'></view>
+
+    <view class='phone-box'>
+     <view class='phone'>
+       <image src='../images-icon/13-1.png'></image>
+     </view>
+     <view class='phone-text'>
+      <text class='text-one'>手机:</text>
+      <text class='text-two'>14725836914</text>
+     </view>
+    </view>
+    <view class='phone-box'>
+     <view class='phone'>
+       <image src='../images-icon/13-2.png'></image>
+     </view>
+     <view class='phone-text'>
+      <text class='text-one'>微信:</text>
+      <text class='text-two'>14725836914</text>
+     </view>
+    </view>
+    <view class='phone-box'>
+     <view class='phone'>
+       <image src='../images-icon/13-3.png'></image>
+     </view>
+     <view class='phone-text'>
+      <text class='text-one'>地址:</text>
+      <text class='text-two'>广东省广州市天河区灵山东路东英科技园7号楼</text>
+     </view>
+    </view>
+      
+      <view class='posters-icon'>
+       <image src='../images/23.jpg'></image>
+      </view>
+  </view>
+  <view class='keep' bindtap='keepposters'>
+        <text>保存名片海报到本地相册</text>
+      </view>
+</view>

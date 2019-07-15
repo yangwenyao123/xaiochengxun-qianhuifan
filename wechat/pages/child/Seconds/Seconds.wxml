@@ -1,0 +1,17 @@
+<!--pages/order/order.wxml-->
+<view class='content'>
+  <view class='header'>
+    <view class="item {{index==active?'active':''}}" wx:for="{{btn}}" bindtap='dianji' data-index='{{index}}' wx:key="index">{{item}}</view>
+ 
+  </view>
+  <view class='list'>
+    <view class='list-box'>
+      <image src='/pages/child/image/integral/mx.png '></image>
+      <view class='text'>暂无数据</view>
+    </view>
+
+  </view>
+  
+
+
+</view>

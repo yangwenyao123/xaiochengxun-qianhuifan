@@ -1,0 +1,19 @@
+<!--pages/child/mass/mass.wxml-->
+<view class='content'>
+  <view class='list'>
+    <view class='item' wx:for="{{goods}}" wx:key="index" bindtap='details'>
+      <view class='btn' wx:if="{{pid==1}}">拼团商品</view>
+      <view class='btn' wx:elif="{{pid==2}}">砍价商品</view>
+     
+      <view class='item-img'>
+        <image src='{{item.Img}}'></image>
+      </view>
+      <view class='describe'>{{item.title}}</view>
+      <view class='price'>
+        ￥{{item.price}}
+        <text>￥{{item.dele}}</text>
+      </view>
+    </view>
+
+  </view>
+</view>
